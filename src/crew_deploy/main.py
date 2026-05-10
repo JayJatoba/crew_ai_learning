@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from crew_deploy.crew import CrewDeploy
+from src.crew_deploy.crew import CrewDeploy
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
